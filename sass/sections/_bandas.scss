@@ -1,0 +1,143 @@
+.bandasRock {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.87);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), /* Sombra superior */
+                -2px 0 5px rgba(0, 0, 0, 0.1), /* Sombra izquierda */
+                2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
+    padding: 20px;
+    .bandasRock-h1 {
+        margin-bottom: 30px;
+    }
+    .bandasRock-p {
+        margin-bottom: 30px;
+    }
+}
+
+.banda1 {
+    border-top: 2px solid black;
+    padding: 20px 0;
+    transition: transform 0.3s ease;
+    transition: .3s;
+    h2 {
+        text-align: left;
+    }
+    .banda1-info{
+        display: flex;
+        align-items: center;
+        text-align: left;
+        img {
+            width: 40%;
+        }
+    }
+}
+
+.banda2 {
+    border-top: 2px solid black;
+    padding: 20px 0;
+    transition: transform 0.3s ease;
+    h2 {
+        text-align: left;
+    }
+    .banda2-info{
+        display: flex;
+        align-items: center;
+        text-align: left;
+        img {
+            width: 40%;
+        }
+    }
+}
+.banda3 {
+    border-top: 2px solid black;
+    padding: 20px 0;
+    transition: transform 0.3s ease;
+    h2 {
+        text-align: left;
+    }
+    .banda3-info{
+        display: flex;
+        align-items: center;
+        text-align: left;
+        img {
+            width: 40%;
+        }
+    }
+}
+.banda4 {
+    border-top: 2px solid black;
+    padding: 20px 0;
+    transition: transform 0.3s ease;
+    h2 {
+        text-align: left;
+    }
+    .banda4-info{
+        display: flex;
+        align-items: center;
+        text-align: left;
+        img {
+            width: 40%;
+        }
+    }
+}
+.banda5 {
+    border-top: 2px solid black;
+    padding: 20px 0;
+    transition: transform 0.3s ease;
+    h2 {
+        text-align: left;
+    }
+    .banda5-info{
+        display: flex;
+        align-items: center;
+        text-align: left;
+        img {
+            width: 40%;
+        }
+    }
+}
+.banda6 {
+    border-top: 2px solid black;
+    padding: 10px 0;
+    transition: transform 0.3s ease;
+    h2 {
+        text-align: left;
+    }
+    .banda6-info{
+        display: flex;
+        align-items: center;
+        text-align: left;
+        img {
+            width: 40%;
+        }
+    }
+}
+
+.banda1:hover,
+.banda2:hover,
+.banda3:hover,
+.banda4:hover,
+.banda5:hover,
+.banda6:hover {
+    transform: translateY(-10px); /* Mover la tarjeta hacia arriba */
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3); /* Cambiar la sombra */
+    border-radius: 12px;
+} 
+
+@media (max-width: 900px) {
+    .banda1-info,
+    .banda2-info,
+    .banda3-info,
+    .banda4-info,
+    .banda5-info,
+    .banda6-info {
+        flex-direction: column;
+        img {
+            width: 100% !important;
+        }
+    }
+}

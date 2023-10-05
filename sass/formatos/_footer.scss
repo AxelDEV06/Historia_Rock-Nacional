@@ -1,0 +1,75 @@
+/*///////////////////////////////////////////////////////////*/
+/*
+FOOTER SIEMPRE EN EL BOTTOM:
+1- Darle al body un display flex.
+2- Luego un flex direction column para volver a recuperar su forma.
+3- Por úiltimo un min height de 100vh para que siempre ocupe el 100% del alto visible. 
+4- Vamos al footer para aplicarle un margin top auto para que se ajuste automaticamente por debajo.
+*/
+/*FOOTER*/
+#FOOTER {
+    background-color: rgb(160, 160, 160);
+    padding: 0 10% 0 10%; /*PADDING PARA DARLE ESPACIO INTERNO IZQ/DER*/
+    display: flex; /*PROPIEDAD Y VALOR PARA ACOMODAR CAJAS*/
+    justify-content: space-between; /*JUSTIFICAMOS LOS HIJOS DE IZQUIERDA/DERECHA*/
+    align-items: center; /*ALINEAMOS LOS HIJOS DE ARRIBA/ABAJO*/
+    margin-top: auto;
+    width: 100%;
+    backdrop-filter: blur(6px) saturate(143%);
+    -webkit-backdrop-filter: blur(6px) saturate(143%);
+    background-color: rgba(15, 15, 17, 0.48);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    
+    /*EDICIÓN DE LAS 3 BOXES*/
+    /*BOX-1*/
+    .footer__BOX1-ICON img {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        }
+    }
+
+    /*BOX-2*/
+    .footer__BOX2-LINKS ul li {
+        margin-top: 10px;
+        text-align: center;
+        a {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 18px;
+            color: white;
+        }
+    }
+
+    /*BOX-3*/
+    .footer__BOX3-INFO { /*CAJA DE INFO PERSONAL*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .redes ul li {
+            display: inline-block;
+            margin-left: 20px;
+            .fa-brands {
+                font-size: 40px;
+                color: black;
+            }
+        }
+        /*INFO PERSONAL: AXEL*/
+        .personal { /*CENTRADO FOTO Y PÁRRAFO*/
+            text-align: center;
+            margin-top: 20px;
+            img {
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+            }
+            p {
+                color: white;
+            }
+    }
+}
+
+@media (max-width:576px) {
+    #FOOTER {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,50 @@
+.cancionesRock {
+    background-color: rgba(255, 255, 255, 0.87);
+            border-radius: 12px;
+            border: 1px solid rgba(209, 213, 219, 0.3);
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), /* Sombra superior */
+                -2px 0 5px rgba(0, 0, 0, 0.1), /* Sombra izquierda */
+                2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
+    .canciones {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        h2 {
+            margin-bottom: 20px;
+        }
+        .cancion1,
+        .cancion2,
+        .cancion3,
+        .cancion4,
+        .cancion5,
+        .cancion6,
+        .cancion7,
+        .cancion8,
+        .cancion9,
+        .cancion10 {
+            margin: 20px;
+            background-color: rgba(255, 255, 255, 0.87);
+            border-radius: 12px;
+            border: 1px solid rgba(209, 213, 219, 0.3);
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), /* Sombra superior */
+                -2px 0 5px rgba(0, 0, 0, 0.1), /* Sombra izquierda */
+                2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
+                padding: 10px;
+            transition: .3s;
+        }
+        .cancion1:hover,
+        .cancion2:hover,
+        .cancion3:hover,
+        .cancion4:hover,
+        .cancion5:hover,
+        .cancion6:hover,
+        .cancion7:hover,
+        .cancion8:hover,
+        .cancion9:hover,
+        .cancion10:hover {
+            transform: translateY(-10px); /* Mover la tarjeta hacia arriba */
+            box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3); /* Cambiar la sombra */
+            border-radius: 12px;
+        }
+    }
+}

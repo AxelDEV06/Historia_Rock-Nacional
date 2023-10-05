@@ -1,0 +1,42 @@
+/*FONT ROBOTO MONO*/
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    img {
+        background-size: cover;
+        background-position: center;
+        min-width: 200px;
+        height: 90vh;
+    }
+    .banner-info {
+        position: absolute;
+        height: 100vh;
+        backdrop-filter: blur(2px);
+        display: flex;
+        align-items: center;
+        div {
+            width: 100%;
+            margin: 0 10px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.479);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(209, 213, 219, 0.3);
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), /* Sombra superior */
+                -2px 0 5px rgba(0, 0, 0, 0.1), /* Sombra izquierda */
+                2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
+            p {
+                color: rgb(0, 0, 0);
+                text-align: center;
+                font-size: 30px;
+                bottom: 0;
+                font-family: 'Young Serif', serif;
+            }
+        }
+        
+    }
+}
