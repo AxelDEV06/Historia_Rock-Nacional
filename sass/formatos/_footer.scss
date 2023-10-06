@@ -37,6 +37,12 @@ FOOTER SIEMPRE EN EL BOTTOM:
             font-family: 'Orbitron', sans-serif;
             font-size: 18px;
             color: white;
+            transition: .3s;
+        }
+        a:hover {
+            transition: .3s;
+            color: #ff6600;
+            transform: scale(1.1);
         }
     }
 
@@ -51,6 +57,12 @@ FOOTER SIEMPRE EN EL BOTTOM:
             .fa-brands {
                 font-size: 40px;
                 color: black;
+                transition: .3s;
+            }
+            .fa-brands:hover {
+                transition: .3s;
+                color: #ff6600;
+                transform: scale(1.1);
             }
         }
         /*INFO PERSONAL: AXEL*/

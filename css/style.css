@@ -19,6 +19,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   min-height: 100vh;
   width: 100%;
@@ -53,6 +57,7 @@ nav {
   width: 100%;
   height: 70px;
   z-index: 100;
+  padding: 0 20px;
 }
 nav ul {
   width: 100%;
@@ -165,6 +170,12 @@ FOOTER SIEMPRE EN EL BOTTOM:
   font-family: "Orbitron", sans-serif;
   font-size: 18px;
   color: white;
+  transition: 0.3s;
+}
+.footer__BOX2-LINKS ul li a:hover {
+  transition: 0.3s;
+  color: #ff6600;
+  transform: scale(1.1);
 }
 
 /*BOX-3*/
@@ -181,6 +192,12 @@ FOOTER SIEMPRE EN EL BOTTOM:
 .footer__BOX3-INFO .redes ul li .fa-brands {
   font-size: 40px;
   color: black;
+  transition: 0.3s;
+}
+.footer__BOX3-INFO .redes ul li .fa-brands:hover {
+  transition: 0.3s;
+  color: #ff6600;
+  transform: scale(1.1);
 }
 .footer__BOX3-INFO .personal { /*CENTRADO FOTO Y PÁRRAFO*/
   text-align: center;
@@ -217,7 +234,7 @@ FOOTER SIEMPRE EN EL BOTTOM:
 }
 .banner .banner-info {
   position: absolute;
-  height: 100vh;
+  height: 90vh;
   backdrop-filter: blur(2px);
   display: flex;
   align-items: center;
@@ -293,6 +310,11 @@ FOOTER SIEMPRE EN EL BOTTOM:
   grid-area: info3;
 }
 
+@media (max-width: 900px) {
+  .origenRock .container .img img {
+    width: 100% !important;
+  }
+}
 .cronologiaRock {
   width: 100%;
   height: auto;
@@ -360,6 +382,20 @@ FOOTER SIEMPRE EN EL BOTTOM:
   margin: 10px 0;
 }
 
+.card1,
+.card2,
+.card3 {
+  transition: 0.3s;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover {
+  transition: 0.3s;
+  transform: translateY(-10px); /* Mover la tarjeta hacia arriba */
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3); /* Cambiar la sombra */
+}
+
 @media (max-width: 1231px) {
   .container-cards-cronologiaRock {
     justify-content: center;
@@ -387,10 +423,11 @@ FOOTER SIEMPRE EN EL BOTTOM:
 }
 
 .banda1 {
-  border-top: 2px solid black;
   padding: 20px 0;
   transition: transform 0.3s ease;
   transition: 0.3s;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), -2px 0 5px rgba(0, 0, 0, 0.1), 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
 }
 .banda1 h2 {
   text-align: left;
@@ -405,9 +442,11 @@ FOOTER SIEMPRE EN EL BOTTOM:
 }
 
 .banda2 {
-  border-top: 2px solid black;
   padding: 20px 0;
   transition: transform 0.3s ease;
+  transition: 0.3s;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), -2px 0 5px rgba(0, 0, 0, 0.1), 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
 }
 .banda2 h2 {
   text-align: left;
@@ -422,9 +461,11 @@ FOOTER SIEMPRE EN EL BOTTOM:
 }
 
 .banda3 {
-  border-top: 2px solid black;
   padding: 20px 0;
   transition: transform 0.3s ease;
+  transition: 0.3s;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), -2px 0 5px rgba(0, 0, 0, 0.1), 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
 }
 .banda3 h2 {
   text-align: left;
@@ -439,9 +480,11 @@ FOOTER SIEMPRE EN EL BOTTOM:
 }
 
 .banda4 {
-  border-top: 2px solid black;
   padding: 20px 0;
   transition: transform 0.3s ease;
+  transition: 0.3s;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), -2px 0 5px rgba(0, 0, 0, 0.1), 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
 }
 .banda4 h2 {
   text-align: left;
@@ -456,9 +499,11 @@ FOOTER SIEMPRE EN EL BOTTOM:
 }
 
 .banda5 {
-  border-top: 2px solid black;
   padding: 20px 0;
   transition: transform 0.3s ease;
+  transition: 0.3s;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), -2px 0 5px rgba(0, 0, 0, 0.1), 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
 }
 .banda5 h2 {
   text-align: left;
@@ -473,9 +518,11 @@ FOOTER SIEMPRE EN EL BOTTOM:
 }
 
 .banda6 {
-  border-top: 2px solid black;
   padding: 10px 0;
   transition: transform 0.3s ease;
+  transition: 0.3s;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), -2px 0 5px rgba(0, 0, 0, 0.1), 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
 }
 .banda6 h2 {
   text-align: left;
@@ -487,6 +534,15 @@ FOOTER SIEMPRE EN EL BOTTOM:
 }
 .banda6 .banda6-info img {
   width: 40%;
+}
+
+.banda1,
+.banda2,
+.banda3,
+.banda4,
+.banda5,
+.banda6 {
+  margin-top: 20px;
 }
 
 .banda1:hover,
@@ -518,11 +574,45 @@ FOOTER SIEMPRE EN EL BOTTOM:
     width: 100% !important;
   }
 }
+.cantantesRock {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.87);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), -2px 0 5px rgba(0, 0, 0, 0.1), 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
+  padding: 20px;
+}
+.cantantesRock .cont-card-cantantes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cantantesRock .cont-card-cantantes .card {
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), -2px 0 5px rgba(0, 0, 0, 0.1), 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
+  margin-top: 20px;
+  transition: 0.3s;
+}
+.cantantesRock .cont-card-cantantes .card:hover {
+  transition: 0.3s;
+  transform: translateY(-10px); /* Mover la tarjeta hacia arriba */
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3); /* Cambiar la sombra */
+}
+
+@media (max-width: 740px) {
+  .cont-card-cantantes {
+    justify-content: center !important;
+  }
+}
 .cancionesRock {
   background-color: rgba(255, 255, 255, 0.87);
   border-radius: 12px;
   border: 1px solid rgba(209, 213, 219, 0.3);
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), -2px 0 5px rgba(0, 0, 0, 0.1), 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
+  padding: 20px;
 }
 .cancionesRock .canciones {
   display: flex;

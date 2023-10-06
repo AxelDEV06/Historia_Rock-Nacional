@@ -1,3 +1,5 @@
+
+
 .origenRock {  
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -48,3 +50,11 @@
 .info2 { grid-area: info2; }
 
 .info3 { grid-area: info3; }
+
+@media (max-width: 900px) {
+    .origenRock .container .img{
+        img {
+            width: 100% !important;
+        }
+    }
+}

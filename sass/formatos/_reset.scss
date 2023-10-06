@@ -12,6 +12,9 @@
     scroll-padding-top: 70px;/*SOLUCIÓN AL ANCLAJE POR ARRIBA*/
     font-family: 'Roboto', sans-serif;
 }
+a {
+    text-decoration: none;
+}
 
 body {
     min-height: 100vh;
@@ -20,6 +23,7 @@ body {
     flex-direction: column;
     justify-content: center;
     background: linear-gradient(to bottom, #f1ffee, #6e8fa5);
+    
 }
 
 main {

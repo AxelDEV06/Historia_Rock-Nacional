@@ -1,0 +1,45 @@
+Extend: 
+-----------------------
+Muchas veces las clases con sus propiedades se repiten. Por eso, con esta función podremos crear una clase, y de esta forma minimizar lineas de código.
+
+Como ejemplo podremos tener cualquier box, donde siempre se va a repetir, borde, color, fondo, alineación...
+Luego si el resto de las cajas aplican al mismo estilo, solamente deberemos de llamar a la clase mediante la función.
+
+.titulos {
+	text-transform: uppercase;
+	display: inline-block;
+	color: #333;
+	border: 1px solid #333;
+}
+
+h2 {
+    @extend .titulos;
+}
+
+Mixins: 
+-----------------------
+Los Mixins de Sass, hacen algo parecido a lo que hemos visto con Extend. Encapsulan varias líneas de código que posteriormente podemos llamar dentro de un selector y variarlas.
+
+Podemos tomar como ejemplo lo siguiente : «@mixin nombreDelMixin($argumento)»
+
+.box {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+---------------------------------------
+@mixin tamaño-cajas($width, $height) {
+    width: $width;
+    height: $height;
+} 
+@mixin border-radius($radius) {
+    border-radius: $radius;
+} 
+
+
+---------------------------------------
+.box {
+    @include tamaño-cajas(100px, 100px);
+    @include border-radius(10px);
+}

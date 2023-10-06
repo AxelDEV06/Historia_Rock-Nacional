@@ -19,10 +19,14 @@
 }
 
 .banda1 {
-    border-top: 2px solid black;
     padding: 20px 0;
     transition: transform 0.3s ease;
     transition: .3s;
+
+    border: 1px solid rgba(209, 213, 219, 0.3);
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), /* Sombra superior */
+                -2px 0 5px rgba(0, 0, 0, 0.1), /* Sombra izquierda */
+                2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
     h2 {
         text-align: left;
     }
@@ -37,9 +41,14 @@
 }
 
 .banda2 {
-    border-top: 2px solid black;
     padding: 20px 0;
     transition: transform 0.3s ease;
+    transition: .3s;
+
+    border: 1px solid rgba(209, 213, 219, 0.3);
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), /* Sombra superior */
+                -2px 0 5px rgba(0, 0, 0, 0.1), /* Sombra izquierda */
+                2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
     h2 {
         text-align: left;
     }
@@ -53,9 +62,14 @@
     }
 }
 .banda3 {
-    border-top: 2px solid black;
     padding: 20px 0;
     transition: transform 0.3s ease;
+    transition: .3s;
+
+    border: 1px solid rgba(209, 213, 219, 0.3);
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), /* Sombra superior */
+                -2px 0 5px rgba(0, 0, 0, 0.1), /* Sombra izquierda */
+                2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
     h2 {
         text-align: left;
     }
@@ -69,9 +83,14 @@
     }
 }
 .banda4 {
-    border-top: 2px solid black;
     padding: 20px 0;
     transition: transform 0.3s ease;
+    transition: .3s;
+
+    border: 1px solid rgba(209, 213, 219, 0.3);
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), /* Sombra superior */
+                -2px 0 5px rgba(0, 0, 0, 0.1), /* Sombra izquierda */
+                2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
     h2 {
         text-align: left;
     }
@@ -85,9 +104,14 @@
     }
 }
 .banda5 {
-    border-top: 2px solid black;
     padding: 20px 0;
     transition: transform 0.3s ease;
+    transition: .3s;
+
+    border: 1px solid rgba(209, 213, 219, 0.3);
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), /* Sombra superior */
+                -2px 0 5px rgba(0, 0, 0, 0.1), /* Sombra izquierda */
+                2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
     h2 {
         text-align: left;
     }
@@ -101,9 +125,14 @@
     }
 }
 .banda6 {
-    border-top: 2px solid black;
     padding: 10px 0;
     transition: transform 0.3s ease;
+    transition: .3s;
+
+    border: 1px solid rgba(209, 213, 219, 0.3);
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), /* Sombra superior */
+                -2px 0 5px rgba(0, 0, 0, 0.1), /* Sombra izquierda */
+                2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
     h2 {
         text-align: left;
     }
@@ -115,6 +144,14 @@
             width: 40%;
         }
     }
+}
+.banda1,
+.banda2,
+.banda3,
+.banda4,
+.banda5,
+.banda6 {
+    margin-top: 20px;
 }
 
 .banda1:hover,

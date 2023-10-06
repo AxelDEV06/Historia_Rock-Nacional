@@ -5,6 +5,7 @@
             box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), /* Sombra superior */
                 -2px 0 5px rgba(0, 0, 0, 0.1), /* Sombra izquierda */
                 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
+            padding: 20px;
     .canciones {
         display: flex;
         flex-wrap: wrap;
