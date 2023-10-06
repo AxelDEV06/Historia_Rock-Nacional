@@ -30,39 +30,51 @@ FOOTER SIEMPRE EN EL BOTTOM:
     }
 
     /*BOX-2*/
-    .footer__BOX2-LINKS ul li {
-        margin-top: 10px;
-        text-align: center;
-        a {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 18px;
-            color: white;
-            transition: .3s;
+    .footer__BOX2-LINKS {
+        ul {
+            padding: 0;
+            li {
+                margin-top: 10px;
+                text-align: center;
+                a {
+                    font-family: 'Orbitron', sans-serif;
+                    font-size: 18px;
+                    color: white;
+                    transition: .3s;
+                }
+                a:hover {
+                    transition: .3s;
+                    color: $colores-principales;
+                    transform: scale(1.1);
+                }
+            } 
         }
-        a:hover {
-            transition: .3s;
-            color: $colores-principales;
-            transform: scale(1.1);
-        }
-    }
+    } 
+    
 
     /*BOX-3*/
     .footer__BOX3-INFO { /*CAJA DE INFO PERSONAL*/
         display: flex;
         flex-direction: column;
         align-items: center;
-        .redes ul li {
-            display: inline-block;
-            margin-left: 20px;
-            .fa-brands {
-                font-size: 40px;
-                color: black;
-                transition: .3s;
-            }
-            .fa-brands:hover {
-                transition: .3s;
-                color: $colores-principales;
-                transform: scale(1.1);
+        .redes {
+            width: 100%;
+            height: 100%;
+            ul {
+                display: flex;
+                justify-content: space-between; 
+                margin-top: 20px;
+                padding: 0;
+                li a .fa-brands {
+                    font-size: 40px;
+                    color: black;
+                    transition: .3s;
+                }
+                li a .fa-brands:hover {
+                    transition: .3s;
+                    color: $colores-principales;
+                    transform: scale(1.1);
+                }
             }
         }
         /*INFO PERSONAL: AXEL*/

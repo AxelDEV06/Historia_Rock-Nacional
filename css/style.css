@@ -164,6 +164,9 @@ FOOTER SIEMPRE EN EL BOTTOM:
 }
 
 /*BOX-2*/
+.footer__BOX2-LINKS ul {
+  padding: 0;
+}
 .footer__BOX2-LINKS ul li {
   margin-top: 10px;
   text-align: center;
@@ -187,16 +190,22 @@ FOOTER SIEMPRE EN EL BOTTOM:
   align-items: center;
   /*INFO PERSONAL: AXEL*/
 }
-.footer__BOX3-INFO .redes ul li {
-  display: inline-block;
-  margin-left: 20px;
+.footer__BOX3-INFO .redes {
+  width: 100%;
+  height: 100%;
 }
-.footer__BOX3-INFO .redes ul li .fa-brands {
+.footer__BOX3-INFO .redes ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0;
+}
+.footer__BOX3-INFO .redes ul li a .fa-brands {
   font-size: 40px;
   color: black;
   transition: 0.3s;
 }
-.footer__BOX3-INFO .redes ul li .fa-brands:hover {
+.footer__BOX3-INFO .redes ul li a .fa-brands:hover {
   transition: 0.3s;
   color: #ff6600;
   transform: scale(1.1);
