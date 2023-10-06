@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/*VARS CAJAS*/
+/* Sombra derecha */
 /*TIPOGRAFÍA ROBOTO*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 /*TIPOGRAFÍA */
@@ -79,17 +81,17 @@ nav a {
   transform-origin: center center;
   border-radius: 30px;
 }
+nav a:hover {
+  background-color: #000000;
+  color: #ff6600;
+  transform: scale(1.1);
+}
 nav a, nav .fa-solid {
   height: 100%;
   padding: 0 30px;
   display: flex;
   align-items: center;
   color: white;
-}
-nav a:hover {
-  background-color: #000000;
-  color: #ff6600;
-  transform: scale(1.1);
 }
 nav .menuButton {
   display: none;
@@ -343,10 +345,10 @@ FOOTER SIEMPRE EN EL BOTTOM:
   width: 330px;
   height: auto;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.87);
+  background-color: rgba(53, 133, 21, 0.87);
   border-radius: 12px;
   border: 1px solid rgba(209, 213, 219, 0.3);
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), -2px 0 5px rgba(0, 0, 0, 0.1), 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), -2px 0 5px rgba(0, 0, 0, 0.1), 2px 0 5px rgba(0, 0, 0, 0.1);
 }
 .container-cards-cronologiaRock .card1 img {
   width: 100%;
@@ -357,10 +359,10 @@ FOOTER SIEMPRE EN EL BOTTOM:
   width: 330px;
   height: auto;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.87);
+  background-color: rgba(53, 133, 21, 0.87);
   border-radius: 12px;
   border: 1px solid rgba(209, 213, 219, 0.3);
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), -2px 0 5px rgba(0, 0, 0, 0.1), 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), -2px 0 5px rgba(0, 0, 0, 0.1), 2px 0 5px rgba(0, 0, 0, 0.1);
 }
 .container-cards-cronologiaRock .card2 img {
   width: 100%;
@@ -371,10 +373,10 @@ FOOTER SIEMPRE EN EL BOTTOM:
   width: 330px;
   height: auto;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.87);
+  background-color: rgba(53, 133, 21, 0.87);
   border-radius: 12px;
   border: 1px solid rgba(209, 213, 219, 0.3);
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), -2px 0 5px rgba(0, 0, 0, 0.1), 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), -2px 0 5px rgba(0, 0, 0, 0.1), 2px 0 5px rgba(0, 0, 0, 0.1);
 }
 .container-cards-cronologiaRock .card3 img {
   width: 100%;

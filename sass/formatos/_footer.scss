@@ -41,7 +41,7 @@ FOOTER SIEMPRE EN EL BOTTOM:
         }
         a:hover {
             transition: .3s;
-            color: #ff6600;
+            color: $colores-principales;
             transform: scale(1.1);
         }
     }
@@ -61,7 +61,7 @@ FOOTER SIEMPRE EN EL BOTTOM:
             }
             .fa-brands:hover {
                 transition: .3s;
-                color: #ff6600;
+                color: $colores-principales;
                 transform: scale(1.1);
             }
         }

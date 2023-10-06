@@ -30,17 +30,17 @@ nav {
         transform-origin: center center;
         border-radius: 30px;
     }
+    a:hover {
+        background-color: #000000;
+        color: $colores-principales;
+        transform: scale(1.1);
+    }
     a , .fa-solid{
         height: 100%;
         padding: 0 30px;
         display: flex;
         align-items: center;
         color: white;
-    }
-    a:hover {
-        background-color: #000000;
-        color: #ff6600;
-        transform: scale(1.1);
     }
     .menuButton {
         display: none;

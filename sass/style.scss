@@ -1,3 +1,11 @@
+$colores-principales: #ff6600;
+/*VARS CAJAS*/
+$background: rgba(53, 133, 21, 0.87);
+$borde: 1px solid rgba(209, 213, 219, 0.3);
+$border-radius: 12px;
+$sombras: 0 -2px 5px rgba(0, 0, 0, 0.1), /* Sombra superior */
+-2px 0 5px rgba(0, 0, 0, 0.1), /* Sombra izquierda */
+2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */;
 
 
 /*TIPOGRAFÍA ROBOTO*/

@@ -27,12 +27,10 @@
         width: 330px;
         height: auto;
         padding: 20px;
-        background-color: rgba(255, 255, 255, 0.87);
-        border-radius: 12px;
-        border: 1px solid rgba(209, 213, 219, 0.3);
-        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), /* Sombra superior */
-                -2px 0 5px rgba(0, 0, 0, 0.1), /* Sombra izquierda */
-                2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
+        background-color: $background;
+        border-radius: $border-radius;
+        border: $borde;
+        box-shadow: $sombras;
         img {
             width: 100%;
             border-radius: 10px;
@@ -43,12 +41,10 @@
         width: 330px;
         height: auto;
         padding: 20px;
-        background-color: rgba(255, 255, 255, 0.87);
-        border-radius: 12px;
-        border: 1px solid rgba(209, 213, 219, 0.3);
-        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), /* Sombra superior */
-                -2px 0 5px rgba(0, 0, 0, 0.1), /* Sombra izquierda */
-                2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
+        background-color: $background;
+        border-radius: $border-radius;
+        border: $borde;
+        box-shadow: $sombras;
         img {
             width: 100%;
             border-radius: 10px;
@@ -59,12 +55,10 @@
         width: 330px;
         height: auto;
         padding: 20px;
-        background-color: rgba(255, 255, 255, 0.87);
-        border-radius: 12px;
-        border: 1px solid rgba(209, 213, 219, 0.3);
-        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1), /* Sombra superior */
-                -2px 0 5px rgba(0, 0, 0, 0.1), /* Sombra izquierda */
-                2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra derecha */
+        background-color: $background;
+        border-radius: $border-radius;
+        border: $borde;
+        box-shadow: $sombras;
         img {
             width: 100%;
             border-radius: 10px;
